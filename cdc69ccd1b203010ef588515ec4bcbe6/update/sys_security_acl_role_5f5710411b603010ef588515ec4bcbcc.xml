@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 00:19:18</sys_created_on>
+        <sys_id>5f5710411b603010ef588515ec4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_606854_schedulin_events.x_606854_schedulin.user</sys_name>
+        <sys_package display_value="Scheduling App" source="x_606854_schedulin">cdc69ccd1b203010ef588515ec4bcbe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scheduling App">cdc69ccd1b203010ef588515ec4bcbe6</sys_scope>
+        <sys_security_acl display_value="x_606854_schedulin_events">5357988d1b203010ef588515ec4bcb36</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5f5710411b603010ef588515ec4bcbcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 00:19:18</sys_updated_on>
+        <sys_user_role display_value="x_606854_schedulin.user" name="x_606854_schedulin.user">3dd69c8d1b203010ef588515ec4bcb8a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
