@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description>schedule important events</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Calendar">d97710cd1b203010ef588515ec4bcb0c</icon>
+        <item_view/>
+        <name>Events Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 00:19:43</sys_created_on>
+        <sys_id>917790411b603010ef588515ec4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events Form Screen</sys_name>
+        <sys_package display_value="Scheduling App" source="x_606854_schedulin">cdc69ccd1b203010ef588515ec4bcbe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scheduling App">cdc69ccd1b203010ef588515ec4bcbe6</sys_scope>
+        <sys_update_name>sys_sg_form_screen_917790411b603010ef588515ec4bcb56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 00:19:43</sys_updated_on>
+        <table>x_606854_schedulin_events</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Events Detail Screen View Config">597790411b603010ef588515ec4bcb4d</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=917790411b603010ef588515ec4bcb56"/>
+</record_update>
