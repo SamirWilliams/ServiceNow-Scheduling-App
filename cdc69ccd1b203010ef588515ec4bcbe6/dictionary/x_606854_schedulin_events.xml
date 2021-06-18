@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Events" max_length="40" name="x_606854_schedulin_events" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Event Time" max_length="40" name="event_time" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element label="Events" max_length="40" name="x_606854_schedulin_events" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Event Time" mandatory="true" max_length="40" name="event_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Name" mandatory="true" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
         <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>

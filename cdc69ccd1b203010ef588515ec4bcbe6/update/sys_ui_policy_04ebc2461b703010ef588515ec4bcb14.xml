@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_606854_schedulin_events">sys_created_byISEMPTY^EQ<item display_value="-- None --" endquery="false" field="sys_created_by" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	if(g_form.isNewRecord()){
+      g_form.setDisplay('number', false);
+	  g_form.setDisplay('sys_updated_on', false);
+	  g_form.setDisplay('sys_updated_by', false);
+	  g_form.setDisplay('sys_created_by', false);
+   }
+   else{
+      g_form.setDisplay('number', true);
+	  g_form.setDisplay('sys_updated_on', true);
+	  g_form.setDisplay('sys_updated_by', true);
+	  g_form.setDisplay('sys_created_by', true);
+   }
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hides fields on new event creation</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 21:42:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04ebc2461b703010ef588515ec4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hides fields on new event creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Scheduling App" source="x_606854_schedulin">cdc69ccd1b203010ef588515ec4bcbe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scheduling App">cdc69ccd1b203010ef588515ec4bcbe6</sys_scope>
+        <sys_update_name>sys_ui_policy_04ebc2461b703010ef588515ec4bcb14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 21:42:28</sys_updated_on>
+        <table>x_606854_schedulin_events</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
